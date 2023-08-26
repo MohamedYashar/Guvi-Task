@@ -191,7 +191,7 @@
  
     margin-bottom: 20px;
     /* background: #F75900; */
-    background-color: #F75900;
+    /* background-color: #F75900; */
     
 }
 
@@ -243,4 +243,10 @@ body {
 .nav-child{
     display: flex;
     align-items: center;
+}
+
+.container6{
+    text-align: center;
+    height: max-content;
+   padding-bottom: 40px;
 }
