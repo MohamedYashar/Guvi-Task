@@ -176,7 +176,7 @@ const menuData2 = [
 
 const menuContainer2 = document.getElementById("menu-container2");
 
-menuData2.forEach(item => {
+menuData2.map(item => {
     const menuItemDiv = document.createElement("div");
     menuItemDiv.className = "menu-item";
     
@@ -199,3 +199,6 @@ menuData2.forEach(item => {
             // For now, let's just display the search term
             searchResultsDiv.innerHTML = "<p>Search results for: " + searchTerm + "</p>";
         }
+
+
+ 
